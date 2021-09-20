@@ -1,0 +1,173 @@
+html{
+  background-image: url("background.jpeg");
+  background-size: cover;
+}
+
+.nav{
+ font-size: 24px;
+ font-family: fantasy;
+ text-align: right;
+ height: 50px;
+ margin: 0px;
+}
+
+li {
+  position: relative;
+  display: inline;
+  text-decoration: none;
+  color: crimson;
+  padding: 0px 10px;
+}
+
+h1 {
+  padding: 50px 50px 0px;
+  font-size: 50px;
+  font-family: fantasy;
+  color: whitesmoke;
+  margin: 0px;
+  text-align: left;
+  text-decoration: underline;
+ }
+
+h2 {
+  padding:0px 0px 0px 50px;
+  font-size: 32px;
+  font-family: fantasy;
+  color: whitesmoke;
+  margin: 0px;
+  text-align: left;
+  text-decoration: underline;
+}
+header {
+  height: 340px;
+  background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url("backgroundimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#aboutMe {
+  text-align: center;
+}
+
+p{
+  align-content: center;
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+  width: 50%;
+  padding: 0px 25% 0px 25%;
+}
+
+#imageDiv {
+  display: flex;
+  justify-content: center;
+  border-radius: 80%;
+  height: 400px;
+  background-size: contain;
+  background-image: url("me.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+  font-family: fantasy;
+  color: crimson;
+}
+
+#contactMe {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.inputBox {
+  width: 90%;
+  margin: 10px 0px;
+}
+.formWrapper {
+  border: 2px solid crimson;
+  margin: 0px 350px;
+  width: 50%;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 467px;
+  margin: 20px 20px 20px 130px;
+  background-repeat: no-repeat;
+}
+
+.project img{
+  height: 200px;
+  width: 467px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-image: url("projectbackgroundimg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+a:link {
+  text-decoration: none;
+  color: crimson;
+}
+
+
+a:visited {
+  color: crimson;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* --------------Responsive Media------------------------ */
+@media screen and (max-width: 650px) {
+  .nav{
+    font-size: .75em;
+    width: 100%;
+   }
+   h1 {
+    font-size: .75em;
+    }
+   h2 {
+    font-size: .75em;
+   }
+   header {
+    font-size: .75em;
+   }
+   
+   #aboutMe {
+     text-align: center;
+   }
+   
+   
+   h3{
+    font-size: .75em;
+   }
+   
+  .inputBox {
+    width: 90%;
+    height: auto;
+  }
+  .formWrapper {
+    border: 2px solid crimson;
+    width: 75%;
+    margin-left: 50px;
+  }
+  .project {
+    margin: 10px 35px 10px 5px;
+  }
+  
+}
+@media screen and (min-width: 650px) {
+}
