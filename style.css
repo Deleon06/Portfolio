@@ -1,6 +1,5 @@
 html{
   background-image: url("background.jpeg");
-  background-size: cover;
 }
 
 .nav{
@@ -42,7 +41,6 @@ header {
   height: 340px;
   background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url("backgroundimage.png");
   background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
 }
 
