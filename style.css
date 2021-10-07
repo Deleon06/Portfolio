@@ -8,6 +8,7 @@ html{
  text-align: right;
  height: 50px;
  margin: 0px;
+ border-bottom: ridge white 4px;
 }
 
 li {
@@ -19,10 +20,10 @@ li {
 }
 
 h1 {
-  padding: 50px 50px 0px;
+  padding: 10px 10px 0px;
   font-size: 50px;
   font-family: fantasy;
-  color: whitesmoke;
+  color: crimson;
   margin: 0px;
   text-align: left;
   text-decoration: underline;
@@ -32,16 +33,10 @@ h2 {
   padding:0px 0px 0px 50px;
   font-size: 32px;
   font-family: fantasy;
-  color: whitesmoke;
+  color: crimson;
   margin: 0px;
   text-align: left;
   text-decoration: underline;
-}
-header {
-  background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url("backgroundimage.png");
-  background-repeat: no-repeat;
-  background-size:inherit;
-  height: 300px;
 }
 
 #aboutMe {
@@ -138,10 +133,7 @@ a:hover {
     font-size: .75em;
     }
    h2 {
-    font-size: .75em;
-   }
-   header {
-    font-size: .75em;
+    font-size: .85em;
    }
    
    #aboutMe {
